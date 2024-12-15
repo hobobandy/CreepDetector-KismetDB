@@ -1,0 +1,4 @@
+folium~=0.19.2
+haversine~=2.9.0
+pandas~=2.2.3
+kismetdb @ https://github.com/kismetwireless/python-kismet-db/archive/refs/heads/master.zip

@@ -2,23 +2,30 @@
 
 KismetDB compatible [CreepDetector](https://github.com/skickar/CreepDetector) remake.
 
-## Requirements
+## Installation
+
+### Python Version
+
+* Python 3.13
 
 ### Python Packages
 
 - Haversine
 - Pandas
 - Folium
-- kismetdb ([git version](https://github.com/kismetwireless/python-kismet-db), see below)
-
+- kismetdb
+  
 ### kismetdb special note
 
-Due to changes in the KismetDB file schema, the python-kismet-db package was updated on Git, but not yet on PyPi.
+Due to changes in the KismetDB file schema, the python-kismet-db package was updated on Github, but not yet on PyPi.
 
-Until the PyPi version is more recent than 2021.6.1, you'll have to manually install the Git version. Don't worry, it's simple!
+Until the PyPi version is more recent than 2021.6.1, the `requirements.txt` downloads and installs the [Github version](https://github.com/kismetwireless/python-kismet-db).
 
-- clone the package to an accessible folder: ```git clone https://github.com/kismetwireless/python-kismet-db.git```
-- from this script's folder, type: ```pipenv install ../python-kismet-db```
+### Using pip
+
+1) Recommendation: Create a new virtual environment using `python -m venv .venv` inside the project's folder. Activate using your platform's script under `.venv/Scripts/` (e.g. activate.bat for Windows, activate for Linux).
+
+2) Install required packages: `pip install -r requirements.txt`
 
 ## Credits
 
